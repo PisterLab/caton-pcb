@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=86118198-c2a0-47a8-a041-a14bffc04365
 
 [Document2]
-DocumentPath=..\caton-pcb\caton-pcb.PrjPcb
+DocumentPath=..\caton-motherboard.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -82,6 +82,27 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+VaultGUID=
+ManagedProjectGUID=
+RevisionGUID=
+ProjectName=caton-motherboard.PrjPcb
+
+[Document3]
+DocumentPath=..\caton-multiboard.MbaDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=bf31b9c3-097b-4e98-8401-5a68e198ec9c
 
 [OutputGroup1]
 Name=Netlist Outputs

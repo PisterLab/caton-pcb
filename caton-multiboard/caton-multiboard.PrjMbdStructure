@@ -1,2 +1,2 @@
-Record=DiagramHierarchy|SourceDocument=caton-multiboard.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\caton-pcb\caton-pcb.PrjPcb
-Record=SubProject|SourceDocument=caton-multiboard.MbsDoc|ProjectPath=..\caton-pcb\caton-pcb.PrjPcb
+Record=DiagramHierarchy|SourceDocument=caton-multiboard.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\caton-motherboard.PrjPcb
+Record=SubProject|SourceDocument=caton-multiboard.MbsDoc|ProjectPath=..\caton-motherboard.PrjPcb
