@@ -8,5 +8,6 @@
 *.CSV
 *.SchDocPreview
 Project Logs for caton-pcb/
+**/Project Logs for**/
 Project Outputs/
 *.OutJob

@@ -52,23 +52,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=400250.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YGLDCYSI
-
-[Document2]
 DocumentPath=caton-nrf52840.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -85,7 +68,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CIGKQSMY
 
-[Document3]
+[Document2]
 DocumentPath=caton-top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -102,7 +85,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIRSITVT
 
-[Document4]
+[Document3]
 DocumentPath=caton-ads1299.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -119,7 +102,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OEAAZEWQ
 
-[Document5]
+[Document4]
 DocumentPath=caton.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -136,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CRFJGJPE
 
-[Document6]
+[Document5]
 DocumentPath=parts\bss138\BSS138.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -153,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXJEGWYT
 
-[Document7]
+[Document6]
 DocumentPath=parts\gdz5v1lp3-7\GDZ5V1LP3-7.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,24 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MILKDAQY
 
-[Document8]
-DocumentPath=pca10059\pca10059.SCHLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VQEQTXTF
-
-[Document9]
+[Document7]
 DocumentPath=parts\bss138\BSS138.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LIQYNMIR
 
-[Document10]
+[Document8]
 DocumentPath=parts\gdz5v1lp3-7\GDZ5V1LP3-7.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +187,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYIXFFFD
 
-[Document11]
+[Document9]
 DocumentPath=pca10059\400250.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YIMPKOGC
 
-[Document12]
+[Document10]
 DocumentPath=caton-pcb.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,74 +220,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document13]
-DocumentPath=BWRC-Libs\BWRC.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HCDOKTCH
-
-[Document14]
-DocumentPath=BWRC-Libs\BWRC.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SHDTRUYF
-
-[Document15]
-DocumentPath=BSAC.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TZRMPAMS
-
-[Document16]
-DocumentPath=BSAC-Libs\BSAC.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BXVBYSGH
 
 [Configuration1]
 Name=Sources

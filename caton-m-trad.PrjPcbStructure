@@ -1,4 +1,3 @@
 Record=TopLevelDocument|FileName=caton-top.SchDoc|SheetNumber=2
 Record=SheetSymbol|SourceDocument=caton-top.SchDoc|Designator=ADS1299|SchDesignator=ADS1299|FileName=caton-ads1299.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=caton-ads1299.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=caton-top.SchDoc|Designator=SCuM-3C|SchDesignator=SCuM-3C|FileName=caton-scum3c.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=caton-scum3c.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=NoMainPathDocument|SourceDocument=caton-top.SchDoc|FileName=caton-nrf52840.SchDoc|SheetNumber=1
