@@ -1,0 +1,20 @@
+|RECORD=BOM|VERSION=6|FILENAME=C:\Projects\Repositories\caton-pcb\caton-d-q100\caton-d-q100.BomDoc|KIND=ALTIUM_DESIGNER_LIVEBOM|DATE=02.07.2024|TIME=06:17:43|CURRENCY=USD|PRODUCTIONQUANTITY=1|PERUNITTARGETPRICE=0|PERUNITACTUALPRICE=0
+|RECORD=GeneralOptions|OPENEXPORTED=False|ADDTOPROJECT=False|FORCEFIT=False|NOTFITTED=False|TEMPLATEFILENAME=|BATCHMODE=0|SUPPLIERPRODQTY=0|SUPPLIERAUTOQTY=False|SUPPLIERUSECACHEDPRICING=False|SUPPLIERCURRENCY=|SOLUTIONSPERITEM=1|SUPPLIERSPERSOLUTION=1|DISPLAYTOTALROW=False|DISPLAYSUBTOTALSFORGROUPS=False|INCLUDEPCBPARAMETERS=False|INCLUDEDBPARAMETERS=False|INCLUDEVAULTPARAMETERS=False|INCLUDECLOUDPARAMETERS=False|INCLUDEDOCUMENTPARAMETERS=False|FILTEROUTRISKYSOLUTIONS=True|DESIGNATORGROUPING=No
+|RECORD=SortOrderOptions|SORTORDER=
+|RECORD=GroupOrderOptions|GROUPORDER=
+|RECORD=VisibleOrderOptions|VISIBLEORDER=Line #=53!Comment=118!Description=128!Designator=77!Quantity=66!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116
+|RECORD=VisibleOrderOptions2|BASEVIEW=Line #=53!Comment=118!Description=128!Designator=77!Quantity=66!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116|FLATVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116|CONSOLIDATEDVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Quantity=-1!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116
+|RECORD=CustomColumns|CUSTOMCOLUMNS=
+|RECORD=ColumnsAliases|COLUMNSALIASES=Comment=Name
+|RECORD=FilterOptions|FILTER=
+|RECORD=CheckGroupCompParamsOptions|CHECKGROUPCOMPPARAMS=Comment=0,Description=0,Value=0,Footprint=1
+|RECORD=ManufacturerLinkOptions|MANUFACTURERLINKPARAMETERS=
+|RECORD=FavoriteSuppliers|PARTSOURCES=|SUPPLIERS=|USESUPPLIERORDER=False
+|RECORD=CheckOptions|CHECKLEVELS=
+|RECORD=ExternalCheckOptions|CHECKLEVELS=
+|RECORD=LineNumberingOptions|STARTVALUE=|INCREMENT=
+|RECORD=Catalog|DBLINKFILEPATH=
+|RECORD=CatalogItem|ITEMTYPE=Automatic-NonVault|UNIQUEID=pca10059.SCHLIB\R0201-0R|DESIGNITEMID=R0201-0R|ITEMSOURCE=pca10059.SCHLIB|STATUS=Unknown|DESCRIPTION=Resistor, ±5%, 0.05W|USERCOMMENTS=0R|NOTE=|LINENUMBER=|SELECTEDPARAMETERSHASH=0R,"Resistor, ±5%, 0.05W"|COMPONENTPARAMETERS="Artikkelnr Noca=N.A.",Assembly=,Author=rsk,Comment=0R,"Component Class=Resistors","Component Kind=Standard",ComponentLink1Description=Datasheet,ComponentLink1URL=N.A.,"ComponentLink2Description=Supplier link",ComponentLink2URL=N.A.,"Description=Resistor, ±5%, 0.05W",Footprint=RESC0603X03L_C,"Footprint Doc=0201",HelpURL=N.A.,"Ibis Model=",LatestRevisionDate=2017-11-09,"Library Name=pca10059.SCHLIB","Library Reference=R0201-0R",Manufacturer=N.A.,"Manufacturer Part Number=N.A.","Note=Chip Res 5%","Pad Count=2","Part Number=R0201-0R","Part number IPS=00000003245","Part number Norautron=N.A.",PartId=100100001,PCB3D=,"Pin Info=",Published=2014-11-13,"Signal Integrity=",Simulation=,"Supplier 1=N.A.","Supplier 2=N.A.","Supplier Part Number 1=N.A.","Supplier Part Number 2=N.A.",Value=0R|CUSTOMPARAMETERS=
+|RECORD=PartChoiceGroups|GROUPBYFIELDCOUNT=0
+|RECORD=CatalogItem|ITEMTYPE=Automatic-NonVault|UNIQUEID=BSAC.SchLib\SCuM_3C_QFN100|DESIGNITEMID=SCuM_3C_QFN100|ITEMSOURCE=BSAC.SchLib|STATUS=Unknown|DESCRIPTION=|USERCOMMENTS=SCuM_3C_QFN100|NOTE=|LINENUMBER=|SELECTEDPARAMETERSHASH=,SCuM_3C_QFN100|COMPONENTPARAMETERS=Comment=SCuM_3C_QFN100,"Component Kind=Standard",Description=,Footprint=QFN40P1200X1200X150_HS-101N,"Ibis Model=","Library Name=BSAC.SchLib","Library Reference=SCuM_3C_QFN100",PCB3D=,"Pin Info=","Signal Integrity=",Simulation=|CUSTOMPARAMETERS=
+|RECORD=PartChoiceGroups|GROUPBYFIELDCOUNT=0
