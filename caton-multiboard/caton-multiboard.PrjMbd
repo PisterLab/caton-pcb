@@ -135,40 +135,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SHDTRUYF
 
 [Document6]
-DocumentPath=..\..\..\..\Users\lovel\Documents\AltiumLL\SamacSys.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NGLTGAHM
-
-[Document7]
-DocumentPath=..\..\..\..\Users\lovel\Documents\AltiumLL\SamacSys.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MPRJBCLL
-
-[Document8]
 DocumentPath=caton-multiboard.MbsDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=86118198-c2a0-47a8-a041-a14bffc04365
 
-[Document9]
+[Document7]
 DocumentPath=..\caton-m-trad.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -208,7 +174,7 @@ ProjectName=caton-m-trad.PrjPcb
 VaultURL=
 VaultName=
 
-[Document10]
+[Document8]
 DocumentPath=..\caton-multiboard.MbaDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -225,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=bf31b9c3-097b-4e98-8401-5a68e198ec9c
 
-[Document11]
+[Document9]
 DocumentPath=..\caton-d-q100\caton-d-q100.PrjPcb
 AnnotationEnabled=1
 AnnotateStartValue=1
