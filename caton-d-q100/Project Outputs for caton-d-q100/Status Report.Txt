@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of BOM Document [caton-d-q100.BomDoc]
+   Generated File[Bill of Materials-caton-d-q100.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:59:17 AM On 7/5/2024
