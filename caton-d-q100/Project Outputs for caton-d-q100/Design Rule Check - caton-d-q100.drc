@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Projects\Repositories\caton-pcb\caton-d-q100\caton-d-q100.PcbDoc
 Date     : 7/5/2024
-Time     : 9:49:56 PM
+Time     : 11:58:48 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (HasFootprint('Solderbridge')),(All)
 Rule Violations :0
@@ -13,18 +13,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net SENSOR_EXT_IN Between Via (22.869mm,7.969mm) from Signal Layer 1 to Signal Layer 6 And Pad J2-26(28.8mm,13.25mm) on Signal Layer 6 [Unplated] 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (23.191mm,9.449mm) from Signal Layer 1 to Signal Layer 6 And Pad J2-5(25.2mm,8.25mm) on Signal Layer 6 [Unplated] 
-   Violation between Un-Routed Net Constraint: Polygon  (NONET_L-01_P-001) on Signal Layer 5 Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Track (10.1mm,10.525mm)(10.125mm,10.525mm) on Signal Layer 1 And Track (10.1mm,15.725mm)(10.125mm,15.725mm) on Signal Layer 1 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Track (21.9mm,10.525mm)(21.902mm,10.523mm) on Signal Layer 1 And Track (21.9mm,11.725mm)(21.902mm,11.727mm) on Signal Layer 1 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Track (3.145mm,15.305mm)(3.2mm,15.25mm) on Signal Layer 6 And Track (3.2mm,15.75mm)(3.225mm,15.725mm) on Signal Layer 6 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (11.4mm,19.2mm) from Signal Layer 1 to Signal Layer 6 And Via (20.7mm,19.3mm) from Signal Layer 1 to Signal Layer 6 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (8.8mm,15.725mm) from Signal Layer 1 to Signal Layer 6 And Via (11.4mm,19.2mm) from Signal Layer 1 to Signal Layer 6 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (9.775mm,5.102mm) from Signal Layer 1 to Signal Layer 6 And Via (15.346mm,3.308mm) from Signal Layer 1 to Signal Layer 6 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (20.7mm,19.3mm) from Signal Layer 1 to Signal Layer 6 And Via (23.05mm,12.124mm) from Signal Layer 1 to Signal Layer 6 
-   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (8.75mm,9.3mm) from Signal Layer 1 to Signal Layer 6 And Via (9.775mm,5.102mm) from Signal Layer 1 to Signal Layer 6 
-Rule Violations :11
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -54,9 +43,7 @@ Processing Rule : Hole Size Constraint (Min=0.15mm) (Max=6.3mm) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.5mm) (All),(All)
-   Violation between Hole To Hole Clearance Constraint: (0.466mm < 0.5mm) Between Via (22.869mm,7.969mm) from Signal Layer 1 to Signal Layer 6 And Via (23.1mm,8.7mm) from Signal Layer 1 to Signal Layer 6 
-   Violation between Hole To Hole Clearance Constraint: (0.454mm < 0.5mm) Between Via (23.191mm,9.449mm) from Signal Layer 1 to Signal Layer 6 And Via (23.1mm,8.7mm) from Signal Layer 1 to Signal Layer 6 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.123mm) (All),(All)
 Rule Violations :0
@@ -65,24 +52,18 @@ Processing Rule : Silk To Solder Mask (Clearance=0.025mm) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "C5" (25.883mm,21.184mm) on Top Overlay And Text "SB2" (23.734mm,21.3mm) on Top Overlay Silk Text to Silk Clearance [0mm]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.1mm) Between Text "U1" (9.017mm,19.406mm) on Top Overlay And Track (9.056mm,18.993mm)(9.056mm,23.946mm) on Top Overlay Silk Text to Silk Clearance [0mm]
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Track (4.93mm,10.105mm)(4.93mm,11mm) on Signal Layer 1 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.3mm) Between Board Edge And Pad J3-1(5.5mm,23.75mm) on Signal Layer 1 
-   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.3mm) Between Board Edge And Pad J3-2(8.2mm,21.7mm) on Signal Layer 6 
-   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.3mm) Between Board Edge And Pad J3-3(8.2mm,21.7mm) on Signal Layer 1 
-   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.3mm) Between Board Edge And Pad J3-4(2.8mm,21.7mm) on Signal Layer 1 
-   Violation between Board Outline Clearance(Outline Edge): (0mm < 0.3mm) Between Board Edge And Pad J3-5(2.8mm,21.7mm) on Signal Layer 6 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.3mm) Between Board Edge And Text "J3" (1.905mm,34.468mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.216mm < 0.3mm) Between Board Edge And Track (1.944mm,18.993mm)(1.944mm,23.946mm) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (0.216mm < 0.3mm) Between Board Edge And Track (9.056mm,18.993mm)(9.056mm,23.946mm) on Top Overlay 
-Rule Violations :8
+   Violation between Board Outline Clearance(Outline Edge): (0.127mm < 0.3mm) Between Board Edge And Pad J3-1(5.5mm,23.75mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (0.127mm < 0.3mm) Between Board Edge And Pad J3-2(8.2mm,21.7mm) on Signal Layer 6 
+   Violation between Board Outline Clearance(Outline Edge): (0.127mm < 0.3mm) Between Board Edge And Pad J3-3(8.2mm,21.7mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (0.127mm < 0.3mm) Between Board Edge And Pad J3-4(2.8mm,21.7mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (0.127mm < 0.3mm) Between Board Edge And Pad J3-5(2.8mm,21.7mm) on Signal Layer 6 
+Rule Violations :5
 
 Processing Rule : Length Constraint (Min=0mm) (Max=2540mm) (All)
 Rule Violations :0
@@ -91,6 +72,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=8.48mm) (Prefered=4.24mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 24
+Violations Detected : 5
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
