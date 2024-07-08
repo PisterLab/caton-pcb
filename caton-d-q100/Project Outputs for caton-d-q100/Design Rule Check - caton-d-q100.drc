@@ -1,0 +1,77 @@
+Protel Design System Design Rule Check
+PCB File : C:\Projects\Repositories\caton-pcb\caton-d-q100\caton-d-q100.PcbDoc
+Date     : 7/7/2024
+Time     : 7:26:41 PM
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (HasFootprint('Solderbridge')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.092mm) (Max=0.122mm) (Preferred=0.097mm) (InNetClass('Controlled Impedance') AND NOT(InAnyDifferentialPair))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.089mm) (Max=0.13mm) (Preferred=0.127mm) (WithinRoom('BGARoom'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.254mm) (InNetClass('Power'))
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.075mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.15mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.5mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.123mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.025mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-1(5.5mm,22.3mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-2(8.2mm,22.3mm) on Signal Layer 6 
+   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-3(8.2mm,22.3mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-4(2.8mm,22.3mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-5(2.8mm,22.3mm) on Signal Layer 6 
+Rule Violations :5
+
+Processing Rule : Length Constraint (Min=0mm) (Max=2540mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=8.48mm) (Prefered=4.24mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 5
+Waived Violations : 0
+Time Elapsed        : 00:00:01
