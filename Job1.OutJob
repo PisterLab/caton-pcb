@@ -88,7 +88,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=Project Outputs for Free Documents\
+OutputFilePath3=C:\Projects\Repositories\caton-pcb\Project Outputs for caton-m-trad\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for caton-m-trad
 OutputPathMedia3=
@@ -142,7 +142,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=
 OpenOutputs2=1
-RelativeOutputPath3=Project Outputs for Free Documents\
+RelativeOutputPath3=C:\Projects\Repositories\caton-pcb\Project Outputs for caton-m-trad\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
