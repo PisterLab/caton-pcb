@@ -1,10 +1,10 @@
-Output: Report Board Stack
-Type  : Report Board Stack
-From  : PCB Document [caton-d-q100.PcbDoc]
-   Generated File[caton-d-q100.xls]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of BOM Document [caton-d-q100.BomDoc]
+   Generated File[Bill of Materials-caton-d-q100.xlsx]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 12:12:15 AM On 7/7/2024
+Finished Output Generation At 9:39:45 AM On 7/9/2024

@@ -1,0 +1,11 @@
+DRC Rules Export File for PCB: C:\Projects\Repositories\caton-pcb\caton.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=2.95
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.50
+RuleKind=SolderMaskExpansion|RuleName=BGASolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.50
+RuleKind=Width|RuleName=PowerWidth|Scope=Board|Minimum=3.50
+RuleKind=Width|RuleName=BGARoomWidth|Scope=Board|Minimum=3.50
+RuleKind=Width|RuleName=ControlWidth|Scope=Board|Minimum=3.62
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=SolderBridgeClearance|Scope=Board|Minimum=10.00
