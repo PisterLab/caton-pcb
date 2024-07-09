@@ -1,0 +1,16 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:18:35 PM On 7/8/2024
+
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [caton.PcbDoc]
+   Generated File[caton.TXT]
+   Generated File[caton.LDP]
+   Generated File[caton.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:18:35 PM On 7/8/2024

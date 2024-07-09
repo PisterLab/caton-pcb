@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: caton.PcbDoc   7/8/2024  9:18:35 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Signal Layer 1 to Signal Layer 6
+ASCII RoundHoles File : caton.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)                                            Round             10        PTH        0.60inch (15.13mm)
+T2      12mil (0.3mm)                                             Round             57        PTH        6.07inch (154.09mm)
+T3      20mil (0.5mm)                                             Round             16        PTH        0.92inch (23.25mm)
+T4      28mil (0.701mm)                                           Round             2         PTH        0.08inch (2.00mm)
+T5      40mil (1.016mm)         +/-3mil (0.076mm)                 Round             12        PTH        1.40inch (35.56mm)
+T6      47mil (1.199mm)                                           Round             4         PTH        4.63inch (117.50mm)
+T7      35mil (0.899mm)                                           Round             2         NPTH       0.12inch (3.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              103
+
+Total Processing Time (hh:mm:ss) : 00:00:00
