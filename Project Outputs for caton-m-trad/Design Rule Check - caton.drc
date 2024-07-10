@@ -1,12 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Projects\Repositories\caton-pcb\caton.PcbDoc
 Date     : 7/9/2024
-Time     : 10:29:21 AM
+Time     : 4:39:40 PM
 
-Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=10mil) (HasFootprint('Solderbridge')),(All)
+Processing Rule : Clearance Constraint (Gap=0.254mm) (HasFootprint('Solderbridge')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -18,76 +18,65 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=3.618mil) (Max=4.793mil) (Preferred=3.821mil) (InNetClass('Controlled Impedance') AND NOT(InAnyDifferentialPair))
+Processing Rule : Width Constraint (Min=0.092mm) (Max=0.122mm) (Preferred=0.097mm) (InNetClass('Controlled Impedance') AND NOT(InAnyDifferentialPair))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=3.5mil) (Max=100mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=3.5mil) (Max=5.118mil) (Preferred=5mil) (WithinRoom('BGARoom'))
+Processing Rule : Width Constraint (Min=0.089mm) (Max=0.13mm) (Preferred=0.127mm) (WithinRoom('BGARoom'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=3.5mil) (Max=100mil) (Preferred=10mil) (InNetClass('Power'))
+Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.254mm) (InNetClass('Power'))
 Rule Violations :0
 
 Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=2.953mil) (All)
+Processing Rule : Minimum Annular Ring (Minimum=0.075mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=5.906mil) (Max=248.031mil) (All)
+Processing Rule : Hole Size Constraint (Min=0.15mm) (Max=6.3mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=19.685mil) (All),(All)
-   Violation between Hole To Hole Clearance Constraint: (17.716mil < 19.685mil) Between Via (1605.079mil,1791.339mil) from Signal Layer 1 to Signal Layer 6 And Via (1605.079mil,1820.866mil) from Signal Layer 1 to Signal Layer 6 
-   Violation between Hole To Hole Clearance Constraint: (17.874mil < 19.685mil) Between Via (2066.929mil,1815.709mil) from Signal Layer 1 to Signal Layer 6 And Via (2079.259mil,1788.706mil) from Signal Layer 1 to Signal Layer 6 
-   Violation between Hole To Hole Clearance Constraint: (19.481mil < 19.685mil) Between Via (840.465mil,1383.772mil) from Signal Layer 1 to Signal Layer 6 And Via (843.454mil,1414.92mil) from Signal Layer 1 to Signal Layer 6 
-Rule Violations :3
+Processing Rule : Hole To Hole Clearance (Gap=0.5mm) (All),(All)
+Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=4.843mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (4.563mil < 4.843mil) Between Pad C54-2(1581.693mil,1846.26mil) on Signal Layer 6 And Via (1605.079mil,1862.909mil) from Signal Layer 1 to Signal Layer 6 [Board Layer Stack Bottom Solder] Mask Sliver [4.563mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.906mil < 4.843mil) Between Pad S2-10(1459.252mil,1095.472mil) on Signal Layer 1 And Via (1459.409mil,1055.118mil) from Signal Layer 1 to Signal Layer 6 [Top Mask] Mask Sliver [2.906mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (3.063mil < 4.843mil) Between Pad U2-7(803.15mil,1629.921mil) on Signal Layer 1 And Via (820.076mil,1650.275mil) from Signal Layer 1 to Signal Layer 6 [Top Mask] Mask Sliver [3.063mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.906mil < 4.843mil) Between Pad Z1-1(1649.606mil,1556.102mil) on Signal Layer 1 And Pad Z1-2(1634.646mil,1556.102mil) on Signal Layer 1 [Top Mask] Mask Sliver [2.906mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.906mil < 4.843mil) Between Pad Z2-1(1634.646mil,1587.598mil) on Signal Layer 1 And Pad Z2-2(1649.606mil,1587.598mil) on Signal Layer 1 [Top Mask] Mask Sliver [2.906mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.906mil < 4.843mil) Between Pad Z3-1(1580.906mil,1556.102mil) on Signal Layer 1 And Pad Z3-2(1565.945mil,1556.102mil) on Signal Layer 1 [Top Mask] Mask Sliver [2.906mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (2.906mil < 4.843mil) Between Pad Z4-1(1565.945mil,1587.598mil) on Signal Layer 1 And Pad Z4-2(1580.906mil,1587.598mil) on Signal Layer 1 [Top Mask] Mask Sliver [2.906mil]
-Rule Violations :7
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.123mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.074mm < 0.123mm) Between Pad Z1-1(39.775mm,40.325mm) on Signal Layer 1 And Pad Z1-2(40.155mm,40.325mm) on Signal Layer 1 [Top Mask] Mask Sliver [0.074mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.074mm < 0.123mm) Between Pad Z2-1(41.52mm,40.325mm) on Signal Layer 1 And Pad Z2-2(41.9mm,40.325mm) on Signal Layer 1 [Top Mask] Mask Sliver [0.074mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.074mm < 0.123mm) Between Pad Z3-1(40.155mm,39.525mm) on Signal Layer 1 And Pad Z3-2(39.775mm,39.525mm) on Signal Layer 1 [Top Mask] Mask Sliver [0.074mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.074mm < 0.123mm) Between Pad Z4-1(41.9mm,39.525mm) on Signal Layer 1 And Pad Z4-2(41.52mm,39.525mm) on Signal Layer 1 [Top Mask] Mask Sliver [0.074mm]
+Rule Violations :4
 
-Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 1mil) Between Pad Free-1(649.606mil,2145.669mil) on Multi-Layer And Text "C55" (598.432mil,2061.697mil) on Board Layer Stack Bottom Overlay [Board Layer Stack Bottom Overlay] to [Board Layer Stack Bottom Solder] clearance [0mil]
+Processing Rule : Silk To Solder Mask (Clearance=0.025mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.025mm) Between Pad Free-1(16.5mm,54.5mm) on Multi-Layer And Text "C9" (15.2mm,52.867mm) on Board Layer Stack Bottom Overlay [Board Layer Stack Bottom Overlay] to [Board Layer Stack Bottom Solder] clearance [0mm]
 Rule Violations :1
 
-Processing Rule : Silk to Silk (Clearance=3.937mil) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (Collision < 3.937mil) Between Text "R29" (1074.797mil,1329.413mil) on Top Overlay And Track (1064.961mil,1319.882mil)(1064.961mil,1337.599mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (2.642mil < 3.937mil) Between Text "R29" (1074.797mil,1329.413mil) on Top Overlay And Track (1064.961mil,1319.882mil)(1179.134mil,1319.882mil) on Top Overlay Silk Text to Silk Clearance [2.642mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 3.937mil) Between Text "R29" (1074.797mil,1329.413mil) on Top Overlay And Track (1064.961mil,1337.599mil)(1179.134mil,1337.599mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (2.063mil < 3.937mil) Between Text "R33" (846.463mil,1909.334mil) on Board Layer Stack Bottom Overlay And Track (847.953mil,2018.433mil)(847.953mil,2052.433mil) on Board Layer Stack Bottom Overlay Silk Text to Silk Clearance [2.063mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 3.937mil) Between Text "R33" (846.463mil,1909.334mil) on Board Layer Stack Bottom Overlay And Track (847.953mil,2018.433mil)(907.953mil,2018.433mil) on Board Layer Stack Bottom Overlay Silk Text to Silk Clearance [0mil]
+Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.3mm) Between Board Edge And Pad J7-MP3(27.6mm,17.6mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (0.15mm < 0.3mm) Between Board Edge And Pad J7-MP4(20mm,17.6mm) on Signal Layer 1 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.3mm) Between Board Edge And Track (9.75mm,22.525mm)(17.35mm,22.525mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.3mm) Between Board Edge And Track (9.75mm,22.525mm)(9.75mm,28.425mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.3mm) Between Board Edge And Track (9.75mm,28.425mm)(17.35mm,28.425mm) on Top Overlay 
 Rule Violations :5
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Processing Rule : Length Constraint (Min=0mm) (Max=2540mm) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (5.906mil < 11.811mil) Between Board Edge And Pad J9-MP3(1086.614mil,692.913mil) on Signal Layer 1 
-   Violation between Board Outline Clearance(Outline Edge): (5.906mil < 11.811mil) Between Board Edge And Pad J9-MP4(787.402mil,692.913mil) on Signal Layer 1 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (383.858mil,1119.094mil)(683.071mil,1119.094mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (383.858mil,886.811mil)(383.858mil,1119.094mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (383.858mil,886.811mil)(683.071mil,886.811mil) on Top Overlay 
-Rule Violations :5
-
-Processing Rule : Length Constraint (Min=0mil) (Max=100000mil) (All)
-Rule Violations :0
-
-Processing Rule : Height Constraint (Min=0mil) (Max=333.858mil) (Prefered=166.929mil) (All)
+Processing Rule : Height Constraint (Min=0mm) (Max=8.48mm) (Prefered=4.24mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 21
+Violations Detected : 10
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

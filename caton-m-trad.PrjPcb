@@ -50,27 +50,10 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=caton-nrf52840.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CIGKQSMY
-
-[Document2]
 DocumentPath=caton-top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
@@ -83,24 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIRSITVT
 
-[Document3]
-DocumentPath=caton-ads1299.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OEAAZEWQ
-
-[Document4]
+[Document2]
 DocumentPath=caton.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CRFJGJPE
 
-[Document5]
+[Document3]
 DocumentPath=parts\bss138\BSS138.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXJEGWYT
 
-[Document6]
+[Document4]
 DocumentPath=parts\gdz5v1lp3-7\GDZ5V1LP3-7.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MILKDAQY
 
-[Document7]
+[Document5]
 DocumentPath=parts\bss138\BSS138.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LIQYNMIR
 
-[Document8]
+[Document6]
 DocumentPath=pca10059\400250.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YIMPKOGC
 
-[Document9]
+[Document7]
 DocumentPath=caton-pcb.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document8]
 DocumentPath=BWRC-Libs\BWRC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HCDOKTCH
 
-[Document11]
+[Document9]
 DocumentPath=BWRC-Libs\BWRC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SHDTRUYF
 
-[Document12]
+[Document10]
 DocumentPath=BSAC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TZRMPAMS
 
-[Document13]
+[Document11]
 DocumentPath=BSAC-Libs\BSAC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BXVBYSGH
 
-[Document14]
+[Document12]
 DocumentPath=Job1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -296,170 +262,190 @@ DocumentPath=caton 7-8-2024 1-26-31 AM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for caton-m-trad\NC Drill\caton.DRR
+DocumentPath=caton 7-9-2024 3-59-09 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Free Documents\NC Drill\caton.DRR
+DocumentPath=caton 7-9-2024 4-00-12 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.EXTREP
+DocumentPath=caton 7-9-2024 4-11-50 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.EXTREP
+DocumentPath=caton 7-9-2024 4-18-21 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G1
+DocumentPath=caton 7-9-2024 4-22-38 PM.WAS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.G1
+DocumentPath=Project Outputs for caton-m-trad\NC Drill\caton.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G2
+DocumentPath=Project Outputs for Free Documents\NC Drill\caton.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.G2
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G3
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.G3
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G4
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.G1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.G4
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G2
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBL
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.G2
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBL
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G3
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBO
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.G3
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBO
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.G4
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBP
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.G4
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBP
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBS
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBS
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GD1
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GD1
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GG1
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GG1
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GM
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GM
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTL
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTL
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTO
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTO
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GM
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTP
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GM
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTP
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTS
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTS
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for caton-m-trad\NC Drill\caton.LDP
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for Free Documents\NC Drill\caton.LDP
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.REP
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for Free Documents\Gerber\caton.REP
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.RUL
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Project Outputs for caton-m-trad\NC Drill\caton.TXT
+DocumentPath=Project Outputs for caton-m-trad\NC Drill\caton.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for Free Documents\NC Drill\caton.TXT
+DocumentPath=Project Outputs for Free Documents\NC Drill\caton.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument44]
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.REP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for Free Documents\Gerber\caton.REP
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for caton-m-trad\Gerber\caton.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for caton-m-trad\NC Drill\caton.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for Free Documents\NC Drill\caton.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument49]
 DocumentPath=Project Outputs for caton-m-trad\Design Rule Check - caton.html
 DItemRevisionGUID=
 
@@ -1381,6 +1367,14 @@ MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
+UniqueIDPath0=
+DocumentName0=caton-top.SchDoc
+IsEnabled0=1
+SelectionScope0=All
+Order0=1
+IndexEnabled0=0
+IndexStartValue0=1
+Suffix0=
 
 [PrjClassGen]
 CompClassManualEnabled=0
