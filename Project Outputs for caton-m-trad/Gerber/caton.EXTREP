@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: caton.GBR   7/10/2024  2:35:21 AM
+Gerber File Extension Report For: caton.GBR   7/11/2024  1:18:14 AM
 ------------------------------------------------------------------------------------------
 
 
@@ -10,10 +10,8 @@ Layer Extension     Layer Description
 .GTP                Top Paste                               
 .GTS                Top Mask                                
 .GTL                Signal Layer 1                          
-.G1                 Signal Layer 2                          
-.G2                 Signal Layer 3                          
-.G3                 Signal Layer 4                          
-.G4                 Signal Layer 5                          
+.G1                 Signal Layer 3                          
+.G2                 Signal Layer 4                          
 .GBL                Signal Layer 6                          
 .GBS                Board Layer Stack Bottom Solder         
 .GBP                Bottom Paste                            
