@@ -1,7 +1,13 @@
 Protel Design System Design Rule Check
 PCB File : C:\Projects\Repositories\caton-pcb\caton-d-q100\caton-d-q100.PcbDoc
-Date     : 7/7/2024
-Time     : 7:26:41 PM
+Date     : 9/4/2024
+Time     : 7:41:14 PM
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: SL1_GND In net GND On Signal Layer 1
+   Polygon named: SL2_1V1 In net +1.1V_SCUM On Signal Layer 2
+   Polygon named: SL3_GND In net GND On Signal Layer 3
+   Polygon named: SL6_GND In net GND On Signal Layer 4
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (HasFootprint('Solderbridge')),(All)
 Rule Violations :0
@@ -13,18 +19,41 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (23.27mm,9.618mm) from Signal Layer 1 to Signal Layer 4 And Pad J2-5(25.2mm,8.25mm) on Signal Layer 4 [Unplated] 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (20.7mm,19.3mm) from Signal Layer 1 to Signal Layer 4 And Pad T3-1(21.9mm,21.9mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Track (10.1mm,10.525mm)(10.125mm,10.525mm) on Signal Layer 1 And Track (10.1mm,15.725mm)(10.125mm,15.725mm) on Signal Layer 1 
+   Violation between Un-Routed Net Constraint: Net GPIO0 Between Via (8.125mm,15mm) from Signal Layer 1 to Signal Layer 4 And Track (12mm,5.274mm)(12mm,6.25mm) on Signal Layer 1 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Track (3.145mm,15.305mm)(3.2mm,15.25mm) on Signal Layer 4 And Track (3.225mm,15.725mm)(6.196mm,15.725mm) on Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO1 Between Track (7.825mm,13.75mm)(8mm,13.925mm) on Signal Layer 4 And Via (7.9mm,4.65mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO8 Between Via (1.675mm,6.85mm) from Signal Layer 1 to Signal Layer 4 And Via (2.275mm,12.75mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO3 Between Via (5.621mm,10.915mm) from Signal Layer 1 to Signal Layer 4 And Via (11.35mm,2.975mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (11.4mm,19.2mm) from Signal Layer 1 to Signal Layer 4 And Via (20.7mm,19.3mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (8.8mm,15.725mm) from Signal Layer 1 to Signal Layer 4 And Via (11.4mm,19.2mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO4 Between Via (5.649mm,10.05mm) from Signal Layer 1 to Signal Layer 4 And Via (12.154mm,2.376mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO5 Between Via (5.73mm,9.205mm) from Signal Layer 1 to Signal Layer 4 And Via (13.026mm,2.474mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (9.775mm,5.102mm) from Signal Layer 1 to Signal Layer 4 And Via (15.346mm,3.308mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO11 Between Via (4.4mm,9.025mm) from Signal Layer 1 to Signal Layer 4 And Via (17.9mm,1.7mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (20.7mm,19.3mm) from Signal Layer 1 to Signal Layer 4 And Via (23.05mm,12.124mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (23.05mm,12.124mm) from Signal Layer 1 to Signal Layer 4 And Via (23.27mm,9.618mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO7 Between Via (4.3mm,13.925mm) from Signal Layer 1 to Signal Layer 4 And Via (5.82mm,5.852mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net GPIO2 Between Via (7.875mm,13.05mm) from Signal Layer 1 to Signal Layer 4 And Via (7.94mm,5.975mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Un-Routed Net Constraint: Net +1.8V_SCUM Between Via (8.75mm,9.3mm) from Signal Layer 1 to Signal Layer 4 And Via (9.775mm,5.102mm) from Signal Layer 1 to Signal Layer 4 
+Rule Violations :19
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-Rule Violations :0
+   Violation between Modified Polygon: Polygon Shelved  (SL1_GND) on Signal Layer 1 
+   Violation between Modified Polygon: Polygon Shelved  (SL2_1V1) on Signal Layer 2 
+   Violation between Modified Polygon: Polygon Shelved  (SL3_GND) on Signal Layer 3 
+   Violation between Modified Polygon: Polygon Shelved  (SL6_GND) on Signal Layer 4 
+Rule Violations :4
 
 Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.092mm) (Max=0.122mm) (Preferred=0.097mm) (InNetClass('Controlled Impedance') AND NOT(InAnyDifferentialPair))
+Processing Rule : Width Constraint (Min=0.092mm) (Max=0.122mm) (Preferred=0.122mm) (InNetClass('Controlled Impedance') AND NOT(InAnyDifferentialPair))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.089mm) (Max=0.13mm) (Preferred=0.127mm) (WithinRoom('BGARoom'))
+Processing Rule : Width Constraint (Min=0.089mm) (Max=0.13mm) (Preferred=0.13mm) (WithinRoom('BGARoom'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.089mm) (Max=2.54mm) (Preferred=0.254mm) (InNetClass('Power'))
@@ -55,14 +84,117 @@ Processing Rule : Silk to Silk (Clearance=0.1mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Via (1.675mm,6.85mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.35mm,2.975mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (11.6mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.7mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (12.925mm,19.2mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (13.8mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (14.9mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (16mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (17.1mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (18.2mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (19.3mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (2.275mm,12.75mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (2.325mm,11.25mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,11.025mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,12.125mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,13.225mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,14.325mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,15.425mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,16.525mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,7.725mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,8.825mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (20.4mm,9.925mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (23.3mm,21.45mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (25.3mm,19.8mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (26.437mm,7.481mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (28.8mm,19.8mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (3.8mm,18.2mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (30mm,19.8mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (3mm,3.2mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (5.73mm,9.205mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (5.82mm,5.852mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (5.869mm,14.35mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (7.875mm,13.05mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (7.94mm,5.975mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (7.9mm,4.65mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (8.125mm,15mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (8.275mm,17mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (8.2mm,18mm) from Signal Layer 1 to Signal Layer 4 
+   Violation between Net Antennae: Via (8.825mm,12.925mm) from Signal Layer 1 to Signal Layer 4 
+Rule Violations :103
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
    Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-1(5.5mm,22.3mm) on Signal Layer 1 
-   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-2(8.2mm,22.3mm) on Signal Layer 6 
+   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-2(8.2mm,22.3mm) on Signal Layer 4 
    Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-3(8.2mm,22.3mm) on Signal Layer 1 
    Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-4(2.8mm,22.3mm) on Signal Layer 1 
-   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-5(2.8mm,22.3mm) on Signal Layer 6 
+   Violation between Board Outline Clearance(Outline Edge): (0.027mm < 0.3mm) Between Board Edge And Pad J3-5(2.8mm,22.3mm) on Signal Layer 4 
 Rule Violations :5
 
 Processing Rule : Length Constraint (Min=0mm) (Max=2540mm) (All)
@@ -72,6 +204,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=8.48mm) (Prefered=4.24mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 5
+Violations Detected : 131
 Waived Violations : 0
 Time Elapsed        : 00:00:01
