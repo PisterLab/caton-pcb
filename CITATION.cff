@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "This PCB design is open source, we only request that you cite it as below."
+authors:
+  - family-names: Lovell
+    given-names: Daniel
+    orcid: https://orcid.org/0009-0002-1663-0640
+title: "Caton PCB: Prototype Wireless EEG System"
+version: 0.2.0
+date-released: 2024-11-03
