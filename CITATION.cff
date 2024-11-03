@@ -7,3 +7,5 @@ authors:
 title: "Caton PCB: Prototype Wireless EEG System"
 version: 0.2.0
 date-released: 2024-11-03
+url: "https://github.com/PisterLab/caton-pcb"
+license: "BSD-3-Clause"
